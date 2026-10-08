@@ -6,7 +6,7 @@ app = Flask(__name__)
 @app.route('/')
 def home():
     return """
-    <div style='text-align:center; margin-top:10%; font-family:Arial, sans-serif;'>
+    <div style='text-align:center; margin-top:10%; font-family:Times new Roman, sans-serif;'>
         <h1 style='color:#0066cc;'>🚀 Success! Your OpenShift App is Alive!</h1>
         <p style='font-size:1.2em;'>OpenShift successfully built your raw code using Source-to-Image (S2I).</p>
         <div style='background:#f4f4f4; padding:15px; display:inline-block; border-radius:5px;'>
